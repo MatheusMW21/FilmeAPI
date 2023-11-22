@@ -6,4 +6,5 @@ public class CreateCinemaDTO
 {
     [Required(ErrorMessage = "O nome do Cinema é obrigatório.")]
     public string Name { get; set; }
+    public int AdressId { get; set; }
 }

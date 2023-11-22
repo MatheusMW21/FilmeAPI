@@ -10,4 +10,6 @@ public class Cinema
 
     [Required(ErrorMessage = "O nome do Cinema é obrigatório.")] 
     public string Name { get; set; }
+    public int AdressId { get; set; }
+    public virtual Adress Adress { get; set; }
 }

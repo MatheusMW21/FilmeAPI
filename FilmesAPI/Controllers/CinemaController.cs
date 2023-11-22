@@ -7,6 +7,9 @@ using System.Diagnostics.Contracts;
 
 namespace FilmesAPI.Controllers;
 
+[ApiController]
+[Route("[controller]")]
+
 public class CinemaController : ControllerBase
 {
     private MovieContext _context;
